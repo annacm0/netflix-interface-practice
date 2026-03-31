@@ -15,6 +15,10 @@ Responsividade: Adaptação da interface para diferentes tamanhos de tela (Mobil
 
 Lógica de Programação: Manipulação do DOM com JavaScript para interatividade.
 
+Persistência de Dados: Uso de LocalStorage para salvar preferências do usuário no navegador.
+
+Interatividade com CSS: Aplicação de efeitos de Hover para feedback visual em botões e cards.
+
 IA Generativa no Front-End: Utilização de modelos de linguagem (LLMs) para acelerar o desenvolvimento, auxiliar na lógica de programação e otimizar a escrita de estilos CSS.
 
 
@@ -41,9 +45,9 @@ No seletor de perfis, utilizei o atributo target="_blank" nos links. Isso permit
 
 HTML5 (Semântica e Acessibilidade)
 
-CSS3 (Variáveis, Flexbox, Grid e Media Queries)
+CSS3 (Variáveis, Flexbox, Grid e Media Queries e feitos de Hover)
 
-JavaScript (Manipulação de Eventos)
+JavaScript (Manipulação de Eventos e LocalStorage)
 
 IA Generativa (GitHub Copilot para suporte no desenvolvimento e refatoração de código)
 

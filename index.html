@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Brasil - assistir a séries e filmes online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://images.seeklogo.com/logo-png/32/2/netflix-logo-png_seeklogo-327627.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <nav class="navbar-left">
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+            alt="Netflix">
+        </nav>
+        <div class="navbar-right">
+            <button id="theme-toggle" aria-label="Alternar entre modo escuro e claro">🌙</button>
+            <div class="lang-dropdown">
+                <button id="lang-toggle" aria-label="Selecionar idioma" aria-expanded="false" aria-haspopup="true">🌐 PT</button>
+                <ul id="lang-menu" class="lang-menu" role="menu" aria-label="Opcoes de idioma" hidden>
+                    <li role="none"><button type="button" role="menuitemradio" data-lang="en" aria-checked="false" data-i18n="language.english">Inglês</button></li>
+                    <li role="none"><button type="button" role="menuitemradio" data-lang="pt" aria-checked="true" data-i18n="language.portuguese">Português</button></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 data-i18n="home.whoIsWatching">Quem está assistindo?</h1>
+        <section aria-label="Perfis de usuário">
+            <nav class="profiles">         
+                <ul>
+                    <li>
+                        <a href="/catalogo/catalogo.html" class="profile" target="_blank"> 
+                            <figure>
+                                <img src="/assets/perfil-1.jpg" alt="Um menina de uns 40 anos com cabelo loiro e olhos verdes, torcedora do flamengo e apaixonada por front-end.">
+                                <figcaption>Anna Carolina</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>                
+                <ul>
+                    <li>
+                        <a href="/catalogo/catalogo.html" class="profile" target="_blank">
+                            <figure>
+                                <img src="/assets/perfil-2.jpg" alt="Imagem de uma moca de cabelo curto loiro encaracolado, com uma metralhadora na mao.">
+                                <figcaption>Mariana</figcaption>
+                            </figure>
+                        </a>                        
+                    </li>                    
+                </ul>
+                <ul> 
+                    <li>
+                        <a href="/catalogo/catalogo.html" class="profile" target="_blank">
+                            <figure>
+                                <img src="/assets/perfil-3.jpg" alt="Imagem de uma senhora gotica e elegante com caipirinha na mao.">
+                                <figcaption>Eleonora</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+                <ul> 
+                    <li>
+                        <a href="/catalogo/catalogo.html" class="profile" target="_blank">
+                            <figure>
+                                <img src="/assets/perfil-4.jpg" alt="Imagem de um menino estudante de medicina e torcedor do cruzeiro.">
+                                <figcaption>Dudo</figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+                <section class="gerenciar">
+                    <button type="button" data-i18n="home.manageProfiles">Gerenciar perfis</button>
+                </section>
+            </nav>
+        </section> 
+    </main>
+
+    <script src="js/index.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #141414;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.navbar {
+    width: 100%;
+    padding: 18px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 108px;
+    height: auto;
+    display: block;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#theme-toggle,
+#lang-toggle {
+    border: 1px solid #4a4a4a;
+    background: transparent;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+#theme-toggle {
+    min-width: 44px;
+}
+
+.lang-dropdown {
+    position: relative;
+}
+
+.lang-menu {
+    position: absolute;
+    top: calc(100% + 6px);
+    right: 0;
+    list-style: none;
+    background: #1f1f1f;
+    border: 1px solid #3b3b3b;
+    border-radius: 6px;
+    min-width: 140px;
+    overflow: hidden;
+    z-index: 50;
+}
+
+.lang-menu button {
+    width: 100%;
+    border: 0;
+    background: transparent;
+    color: #ffffff;
+    text-align: left;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+.lang-menu button:hover {
+    background: #2e2e2e;
+}
+
+body.light-mode {
+    background: #f5f5f5;
+    color: #141414;
+}
+
+body.light-mode #theme-toggle,
+body.light-mode #lang-toggle {
+    border-color: #b6b6b6;
+    color: #141414;
+    background: #ffffff;
+}
+
+body.light-mode .lang-menu {
+    background: #ffffff;
+    border-color: #d0d0d0;
+}
+
+body.light-mode .lang-menu button {
+    color: #141414;
+}
+
+body.light-mode .lang-menu button:hover {
+    background: #f0f0f0;
+}
+
+body.light-mode .profile {
+    color: #4a4a4a;
+}
+
+body.light-mode .profile:hover img,
+body.light-mode .profile:focus-visible img {
+    border-color: #141414;
+}
+
+body.light-mode .profile:hover figcaption,
+body.light-mode .profile:focus-visible figcaption {
+    color: #141414;
+}
+
+body.light-mode .gerenciar button {
+    color: #4a4a4a;
+    border-color: #7d7d7d;
+}
+
+body.light-mode .gerenciar button:hover,
+body.light-mode .gerenciar button:focus-visible {
+    color: #141414;
+    border-color: #141414;
+}
+
+main {
+    max-width: 1160px;
+    margin: 30px auto 0;
+    padding: 0 24px 40px;
+}
+
+main h1 {
+    font-size: clamp(2rem, 3.8vw, 3.3rem);
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 34px;
+}
+
+.profiles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 28px;
+    flex-wrap: wrap;
+}
+
+.profiles ul {
+    list-style: none;
+}
+
+.profile {
+    text-decoration: none;
+    color: #8c8c8c;
+    display: block;
+    width: 170px;
+}
+
+.profile figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile img {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 18px;
+    border: 3px solid transparent;
+    transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.profile figcaption {
+    font-size: 1.2rem;
+    transition: color 0.2s ease;
+}
+
+.profile:hover img,
+.profile:focus-visible img {
+    border-color: #ffffff;
+    transform: scale(1.02);
+}
+
+.profile:hover figcaption,
+.profile:focus-visible figcaption {
+    color: #ffffff;
+}
+
+.gerenciar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    
+}
+
+.gerenciar button {
+    background: red;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-size: 0.95rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.gerenciar button:hover,
+.gerenciar button:focus-visible {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 16px 20px;
+    }
+
+    .logo {
+        width: 92px;
+    }
+
+    .profile,
+    .profile img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .profile figcaption {
+        font-size: 1rem;
+    }
+}

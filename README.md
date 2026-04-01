@@ -2,7 +2,6 @@ Netflix Brasil Clone
 
 Este projeto é um clone da interface da Netflix, desenvolvido durante a Imersão Front-End na era da IA da Alura. O objetivo foi aplicar conceitos fundamentais de HTML, CSS e JavaScript para criar uma experiência de usuário responsiva e visualmente atraente.
 
-
 **🚀 Sobre a Imersão:**
 
 A imersão focou em transformar um design estático em uma aplicação web funcional, abordando:
@@ -21,10 +20,9 @@ Interatividade com CSS: Aplicação de efeitos de Hover para feedback visual em 
 
 IA Generativa no Front-End: Utilização de modelos de linguagem (LLMs) para acelerar o desenvolvimento, auxiliar na lógica de programação e otimizar a escrita de estilos CSS.
 
-
 **✨ Diferenciais e Implementações Próprias:**
 
-Além do conteúdo ministrado nas aulas, decidi expandir o projeto com funcionalidades extras:
+Além do conteúdo ministrado nas aulas, decidi expandir o projeto com funcionalidades extras que aprendi ate o momento:
 
 1. Inclusão de Ícone (Favicon)
 
@@ -36,10 +34,9 @@ Adicionei um componente funcional de troca de idioma no cabeçalho.
 
 O usuário pode alternar visualmente entre Português e Inglês.
 
-3. Abertura de Perfil em Nova Guia
+3. Abertura de Perfil com Foco em Segurança
 
-No seletor de perfis, utilizei o atributo target="_blank" nos links. Isso permite que, ao selecionar um perfil, a página de navegação principal seja aberta em uma nova aba, mantendo a experiência de fluxo de usuário mais fluida.
-
+No seletor de perfis, utilizei target="_blank" em conjunto com rel="noopener noreferrer". Esta é uma boa prática essencial que evita vulnerabilidades de segurança (impedindo que a nova página controle a aba de origem) e melhora a performance ao isolar os processos do navegador.
 
 **🛠️ Tecnologias Utilizadas:**
 
@@ -50,7 +47,6 @@ CSS3 (Variáveis, Flexbox, Grid e Media Queries e feitos de Hover)
 JavaScript (Manipulação de Eventos e LocalStorage)
 
 IA Generativa (GitHub Copilot para suporte no desenvolvimento e refatoração de código)
-
 
 **📸 Demonstração:**
 

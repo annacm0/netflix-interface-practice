@@ -48,6 +48,15 @@ JavaScript (Manipulação de Eventos e LocalStorage)
 
 IA Generativa (GitHub Copilot para suporte no desenvolvimento e refatoração de código)
 
+🌐 Versionamento e Workflow
+Para a gestão do código e deploy do projeto, utilizei o Git integrado ao terminal do Visual Studio Code, seguindo boas práticas de desenvolvimento:
+
+Controle de Versão Local: Realização de commits frequentes para registrar a evolução do projeto.
+
+Sincronização Remota: Todo o envio do ambiente local para o repositório no GitHub foi realizado via linha de comando (CLI).
+
+Mensagens de Commit: Utilização de padrões claros para descrever cada melhoria e refatoração realizada.
+
 **📸 Demonstração:**
 
 <img width="1440" height="850" alt="image" src="https://github.com/user-attachments/assets/03471799-f473-4ad1-98d7-fcb801ffdec9" />

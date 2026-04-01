@@ -9,11 +9,11 @@
 </head>
 <body>
     <!-- Navbar -->
-    <header class="navbar" id="navbar">
-        <nav class="navbar-left">
+    <header class="navbar" id="navbar" aria-label="Barra principal">
+        <div class="navbar-left">
             <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
             alt="Netflix">
-        </nav>
+        </div>
         <div class="navbar-right">
             <button id="theme-toggle" aria-label="Alternar entre modo escuro e claro">🌙</button>
             <div class="lang-dropdown">
@@ -28,8 +28,8 @@
     <main>
         <h1 data-i18n="home.whoIsWatching">Quem está assistindo?</h1>
         <section aria-label="Perfis de usuário">
-            <nav class="profiles">         
-                <ul>
+            <section class="profiles" aria-label="Perfis disponíveis">         
+                <ul class="profiles-list" aria-label="Lista de perfis">
                     <li>
                         <a href="/catalogo/catalogo.html" class="profile" target="_blank" rel="noopener noreferrer"> 
                             <figure>
@@ -37,9 +37,7 @@
                                 <figcaption>Anna Carolina</figcaption>
                             </figure>
                         </a>
-                    </li>
-                </ul>                
-                <ul>
+                    </li>               
                     <li>
                         <a href="/catalogo/catalogo.html" class="profile" target="_blank" rel="noopener noreferrer">
                             <figure>
@@ -47,9 +45,7 @@
                                 <figcaption>Mariana</figcaption>
                             </figure>
                         </a>                        
-                    </li>                    
-                </ul>
-                <ul> 
+                    </li>
                     <li>
                         <a href="/catalogo/catalogo.html" class="profile" target="_blank" rel="noopener noreferrer">
                             <figure>
@@ -58,8 +54,6 @@
                             </figure>
                         </a>
                     </li>
-                </ul>
-                <ul> 
                     <li>
                         <a href="/catalogo/catalogo.html" class="profile" target="_blank" rel="noopener noreferrer">
                             <figure>
@@ -69,10 +63,10 @@
                         </a>
                     </li>
                 </ul>
-                <section class="gerenciar">
+                <section class="gerenciar" aria-label="Ações de perfil">
                     <button type="button" data-i18n="home.manageProfiles">Gerenciar perfis</button>
                 </section>
-            </nav>
+            </section>
         </section> 
     </main>
 

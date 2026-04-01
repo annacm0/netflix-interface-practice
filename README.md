@@ -51,6 +51,7 @@ IA Generativa (GitHub Copilot para suporte no desenvolvimento e refatoração de
 **📸 Demonstração:**
 
 <img width="1440" height="850" alt="image" src="https://github.com/user-attachments/assets/03471799-f473-4ad1-98d7-fcb801ffdec9" />
+<img width="1600" height="857" alt="image" src="https://github.com/user-attachments/assets/6dc25c27-5b8b-4a72-8e84-88087f291ad2" />
 <img width="1440" height="858" alt="image" src="https://github.com/user-attachments/assets/f26caccb-b9df-4697-a577-2d00da47013f" />
 <img width="1425" height="861" alt="image" src="https://github.com/user-attachments/assets/3f84b83d-7069-4e3b-a64d-3a073caf9742" />
 

@@ -1,15 +1,10 @@
-// script.js - Toggle Dark/Light Mode
-
-// Verifica se há preferência salva no localStorage
 const savedTheme = localStorage.getItem('theme');
 const body = document.body;
 
-// Aplica o tema salvo ou padrão (dark)
 if (savedTheme === 'light') {
     body.classList.add('light-mode');
 }
 
-// Função para alternar o tema
 function toggleTheme() {
     body.classList.toggle('light-mode');
     const currentTheme = body.classList.contains('light-mode') ? 'light' : 'dark';
@@ -17,7 +12,6 @@ function toggleTheme() {
     updateButtonText();
 }
 
-// Função para atualizar o texto do botão
 function updateButtonText() {
     const toggleButton = document.getElementById('theme-toggle');
     if (toggleButton) {
@@ -26,7 +20,7 @@ function updateButtonText() {
     }
 }
 
-const supportedLanguages = ['en', 'pt', 'es', 'fr'];
+const supportedLanguages = ['en', 'pt'];
 
 const translations = {
     pt: {
@@ -123,12 +117,11 @@ function openLanguageMenu() {
     langToggle.setAttribute('aria-expanded', 'true');
 }
 
-// Adiciona event listener ao botão de toggle
 document.addEventListener('DOMContentLoaded', () => {
     const toggleButton = document.getElementById('theme-toggle');
     if (toggleButton) {
         toggleButton.addEventListener('click', toggleTheme);
-        updateButtonText(); // Atualiza o texto inicial
+        updateButtonText(); 
     }
 
     const langToggle = document.getElementById('lang-toggle');

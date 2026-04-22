@@ -1,15 +1,12 @@
-// Armazenar perfil ativo no localStorage
 document.addEventListener('DOMContentLoaded', () => {
     const profiles = document.querySelectorAll('.profile');
     
     profiles.forEach(profile => {
         profile.addEventListener('click', (e) => {
-            // Pega o nome e a imagem do perfil
             const figure = profile.querySelector('figure');
             const img = figure.querySelector('img');
             const figcaption = figure.querySelector('figcaption');
             
-            // Armazena no localStorage
             localStorage.setItem('perfilAtivoNome', figcaption.textContent);
             localStorage.setItem('perfilAtivoImagem', img.src);
         });

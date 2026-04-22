@@ -2,7 +2,7 @@ Netflix Brasil Clone
 
 Este projeto é um clone da interface da Netflix, desenvolvido durante a Imersão Front-End na era da IA da Alura. O objetivo foi aplicar conceitos fundamentais de HTML, CSS e JavaScript para criar uma experiência de usuário responsiva e visualmente atraente.
 
-**🚀 Sobre a Imersão:**
+**Sobre a Imersão:**
 
 A imersão focou em transformar um design estático em uma aplicação web funcional, abordando:
 
@@ -20,7 +20,7 @@ Interatividade com CSS: Aplicação de efeitos de Hover para feedback visual em 
 
 IA Generativa no Front-End: Utilização de modelos de linguagem (LLMs) para acelerar o desenvolvimento, auxiliar na lógica de programação e otimizar a escrita de estilos CSS.
 
-**✨ Diferenciais e Implementações Próprias:**
+**Diferenciais e Implementações Próprias:**
 
 Além do conteúdo ministrado nas aulas, decidi expandir o projeto com funcionalidades extras que aprendi ate o momento:
 
@@ -38,26 +38,17 @@ O usuário pode alternar visualmente entre Português e Inglês.
 
 No seletor de perfis, utilizei target="_blank" em conjunto com rel="noopener noreferrer". Esta é uma boa prática essencial que evita vulnerabilidades de segurança (impedindo que a nova página controle a aba de origem) e melhora a performance ao isolar os processos do navegador.
 
-**🛠️ Tecnologias Utilizadas:**
+**Tecnologias Utilizadas:**
 
 HTML5 (Semântica e Acessibilidade)
 
-CSS3 (Variáveis, Flexbox, Grid e Media Queries e feitos de Hover)
+CSS3 (Variáveis, Flexbox, Grid, Media Queries e efeitos de Hover)
 
 JavaScript (Manipulação de Eventos e LocalStorage)
 
 IA Generativa (GitHub Copilot para suporte no desenvolvimento e refatoração de código)
 
-🌐 Versionamento e Workflow
-Para a gestão do código e deploy do projeto, utilizei o Git integrado ao terminal do Visual Studio Code, seguindo boas práticas de desenvolvimento:
-
-Controle de Versão Local: Realização de commits frequentes para registrar a evolução do projeto.
-
-Sincronização Remota: Todo o envio do ambiente local para o repositório no GitHub foi realizado via linha de comando (CLI).
-
-Mensagens de Commit: Utilização de padrões claros para descrever cada melhoria e refatoração realizada.
-
-**📸 Demonstração:**
+**Demonstração:**
 
 <img width="1440" height="850" alt="image" src="https://github.com/user-attachments/assets/03471799-f473-4ad1-98d7-fcb801ffdec9" />
 <img width="1600" height="857" alt="image" src="https://github.com/user-attachments/assets/6dc25c27-5b8b-4a72-8e84-88087f291ad2" />

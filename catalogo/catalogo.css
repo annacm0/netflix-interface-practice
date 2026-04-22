@@ -27,7 +27,6 @@ a:hover {
     color: #b3b3b3;
 }
 
-/* Navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -118,7 +117,6 @@ a:hover {
     border-radius: 4px;
 }
 
-/* Sliders */
 .sliders-container {
     padding: 0 4%;
     padding-top: 100px;
@@ -165,13 +163,9 @@ a:hover {
 .movie-row {
     display: flex;
     gap: 8px;
-    /* Small gap between movie cards */
     overflow-x: visible;
-    /* Let the expanded cards paint outside this box vertically */
     padding: 10px 4% 50px 4%;
-    /* Added bottom padding to hold the expanding modal */
     margin: 0 -4%;
-    /* Pull edges back out so we don't double up padding from container */
     scroll-behavior: smooth;
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -192,10 +186,8 @@ a:hover {
     position: relative;
     z-index: 1;
     transform-origin: center center;
-    /* Default origin */
 }
 
-/* Modifiers applied by JavaScript to prevent edge clipping */
 .movie-card.origin-left {
     transform-origin: left center;
 }
@@ -206,7 +198,6 @@ a:hover {
 
 .movie-card:hover {
     transform: scale(1.6) translateY(-5%);
-    /* Reduced vertical translation since container has more padding */
     z-index: 99;
     border-radius: 6px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.9);
@@ -253,7 +244,6 @@ a:hover {
     opacity: 0;
 }
 
-/* Card Details Modal */
 .card-details {
     position: absolute;
     top: 100%;
@@ -378,7 +368,6 @@ a:hover {
     margin-left: 6px;
 }
 
-/* Badges */
 .badge-top10 {
     position: absolute;
     top: 0;
@@ -437,7 +426,6 @@ a:hover {
     color: black;
 }
 
-/* Progress bar */
 .progress-bar-container {
     position: absolute;
     bottom: 0;
@@ -456,7 +444,6 @@ a:hover {
     border-bottom-left-radius: 4px;
 }
 
-/* Responsive */
 @media (max-width: 1200px) {
     .nav-links {
         gap: 14px;
@@ -626,7 +613,6 @@ a:hover {
     }
 }
 
-/* Footer */
 footer {
     padding: 0 4%;
     color: #737373;
